@@ -8,7 +8,7 @@ class File extends Component {
       <Fragment>
         <h1 className={styles.container}>Hello World!</h1>
         <Link href="/dyn/people">
-            <a className={styles.link}>Dynamic routing</a>
+          <a className={styles.link}>Dynamic routing</a>
         </Link>
       </Fragment>
     );
