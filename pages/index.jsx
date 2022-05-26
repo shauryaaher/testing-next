@@ -27,15 +27,15 @@ export default function Home() {
         </Link>
         <br />
         <Link href="/middleware">
-          <a>Call Edge Function "middleware"</a>
+          <a>Call Edge Function named middleware</a>
         </Link>
         <br />
         <Link href="/api/hello">
-          <a>Call Serverless Function "handler"</a>
+          <a>Call Serverless Function named handler</a>
         </Link>
         <br />
         <Link href="/api/serverless">
-          <a>Call Serverless Function "serverless"</a>
+          <a>Call Serverless Function named serverless</a>
         </Link>
         <br />
       </div>
