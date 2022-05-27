@@ -1,6 +1,6 @@
 import { Component } from "react";
 import Head from "next/head";
-
+import Link from "next/link";
 export default class Route extends Component {
   constructor() {
     super();
@@ -28,6 +28,9 @@ export default class Route extends Component {
           <title>Seconds</title>
         </Head>
         <h1>{this.state.data}</h1>
+        <Link href="/">
+          <a>Go to homepage</a>
+        </Link>
       </>
     );
   }

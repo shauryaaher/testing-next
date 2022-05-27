@@ -11,31 +11,33 @@ export default function Home() {
       </Head>
       <div className={styles.body}>
         <Link href="/reactive">
-          <a>Go to /reactive</a>
+          <a className={styles.link}>Go to /reactive</a>
         </Link>
         <br />
         <Link href="/route">
-          <a>Go to /route</a>
+          <a className={styles.link}>Go to /route</a>
         </Link>
         <br />
         <Link href="/file">
-          <a>Go to /file</a>
+          <a className={styles.link}>Go to /file</a>
         </Link>
         <br />
         <Link href="/dyn/">
-          <a>Go to /dyn</a>
+          <a className={styles.link}>Go to /dyn</a>
         </Link>
         <br />
         <Link href="/middleware">
-          <a>Call Edge Function named middleware</a>
+          <a className={styles.link}>Call Edge Function named middleware</a>
         </Link>
         <br />
         <Link href="/api/hello">
-          <a>Call Serverless Function named handler</a>
+          <a className={styles.link}>Call Serverless Function named handler</a>
         </Link>
         <br />
         <Link href="/api/serverless">
-          <a>Call Serverless Function named serverless</a>
+          <a className={styles.link}>
+            Call Serverless Function named serverless
+          </a>
         </Link>
         <br />
       </div>

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Head from "next/head";
+import Link from "next/link";
 
 function Reactive() {
   const [reader, writer] = useState(0);
@@ -23,7 +24,10 @@ function Reactive() {
         }}
       >
         Decrement
-      </button>
+      </button><br />
+      <Link href="/">
+        <a>Go to homepage</a>
+      </Link>
     </>
   );
 }

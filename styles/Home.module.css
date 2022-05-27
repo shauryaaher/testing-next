@@ -1,9 +1,13 @@
 .main {
-    align-items: center;
-    justify-content: center;
-    margin-top: 0cm;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0cm;
 }
 
 .body {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}
+
+.link {
+  color: dodgerblue;
 }

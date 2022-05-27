@@ -18,6 +18,11 @@ class File extends Component {
         <Link href="/dyn/people">
           <a className={styles.link}>Dynamic routing</a>
         </Link>
+        <br />
+        <br />
+        <Link href="/">
+          <a>Go to homepage</a>
+        </Link>
       </Fragment>
     );
   }
