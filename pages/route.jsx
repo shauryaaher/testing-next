@@ -5,13 +5,13 @@ export default class Route extends Component {
   constructor() {
     super();
     this.state = {
-      data: 0,
+      data: new Date(),
     };
   }
   tick() {
-    this.setState((state) => ({
-      data: state.data + 1,
-    }));
+    this.setState({
+      data: new Date(),
+    });
   }
   componentDidMount() {
     this.interval = setInterval(() => {
@@ -25,9 +25,9 @@ export default class Route extends Component {
     return (
       <>
         <Head>
-          <title>Seconds</title>
+          <title>Current Time</title>
         </Head>
-        <h1>{this.state.data}</h1>
+        <h1>{this.state.data.toLocaleString()}</h1>
         <Link href="/">
           <a>Go to homepage</a>
         </Link>
