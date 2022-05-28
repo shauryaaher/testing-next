@@ -6,6 +6,6 @@ export default function handler(req, res) {
     throw new Error("Method not allowed");
   } else {
     res.setHeader("Cache-Control", "public, max-age=300 s-maxage=1800");
-    res.status(200).send([{howdy: false, id: 0}, {howdy: true, id: 1}]);
+    res.status(200).send([{"howdy": false, "id": 0}, {"howdy": true, "id": 1}]);
   }
 }
