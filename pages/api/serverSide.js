@@ -6,11 +6,11 @@ export default function serverSide(req, res) {
         res.status(200).json([
             {
                 "id": 0,
-                "yesOrNo": "yes"
+                "yesOrNo": "Yes"
             },
             {
                 "id": 1,
-                "yesOrNo": "no"
+                "yesOrNo": "No"
             }
         ]);
     }
