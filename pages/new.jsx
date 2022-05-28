@@ -3,8 +3,9 @@ import Head from "next/head";
 import Link from "next/link";
 
 export async function getStaticProps() {
-  const res = await fetch("https://testing-next-silk.vercel.app/api/hello");
+  const res = await fetch("https://testing-next-silk.vercel.app/api/new");
   const data = await res.json();
+  console.log(data);
   return {
     props: {
       users: data,
@@ -24,9 +25,9 @@ export default function NewRoute({ users }) {
         </Link>
         {users.map((user) => {
           return (
-            <div key={user.id}>
-              <p>{user.howdy}</p>
-            </div>
+            <ul>
+              <li key={user.id}>{user.data}</li>
+            </ul>
           );
         })}
       </div>
