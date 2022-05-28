@@ -10,6 +10,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <div className={styles.body}>
+        <Link href="/timestamp">
+          <a>Go to /timestamp</a>
+        </Link><br />
         <Link href="/new">
           <a>Go to /new</a>
         </Link><br />
