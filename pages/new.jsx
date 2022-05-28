@@ -25,8 +25,8 @@ export default function NewRoute({ users }) {
         </Link>
         {users.map((user) => {
           return (
-            <ul>
-              <li key={user.id}>{user.data}</li>
+            <ul key={user.id}>
+              <li>{user.data}</li>
             </ul>
           );
         })}
