@@ -23,9 +23,11 @@ export default function ServerSide({ values }) {
       </Link>
       <div>
         {values.map((val) => {
-          <ol key={val.id}>
-            <li>{val}</li>
-          </ol>;
+          return (
+            <ul key={val.id}>
+              <li>{val.yesOrNo}</li>
+            </ul>
+          );
         })}
       </div>
     </>
