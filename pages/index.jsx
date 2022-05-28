@@ -10,12 +10,18 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <div className={styles.body}>
+        <Link href="/server-side">
+          <a>Go to /server-side</a>
+        </Link>
+        <br />
         <Link href="/timestamp">
           <a>Go to /timestamp</a>
-        </Link><br />
+        </Link>
+        <br />
         <Link href="/new">
           <a>Go to /new</a>
-        </Link><br />
+        </Link>
+        <br />
         <Link href="/reactive">
           <a className={styles.link}>Go to /reactive</a>
         </Link>
