@@ -1,34 +1,37 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# What can you do?
 
-First, run the development server:
+You can use this repo as you wish. It's completely open-source with no license. Issues and PRs are welcome!
 
-```bash
-npm run dev
-# or
-yarn dev
+# Cloning the repo
+## Clone via HTTPS
+Use this command to clone via HTTPS
+
+```Bash
+$ git clone https://github.com/shauryaaher/testing-next
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Create a codespace
+You can create a codespace for this repo as well (if your org has access to Codespaces or you signed up for the Beta).
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+# Getting started
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Prerequisites
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+You'll need to know the following to use Next.js.
 
-## Learn More
+- HTML
+- CSS (the basics, at least)
+- JavaScript
+- React JS
 
-To learn more about Next.js, take a look at the following resources:
+You'll also need knowledge about how to use CLIs and other tools from the terminal. Here are a few tools ~
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Node.js
+- npm
+- ESLint
+- Webpack/Rollup
+- Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+That's it! You're ready to start using Next.js (if you know the stuff in the Prerequisites)
