@@ -36,4 +36,4 @@ You'll also need knowledge about how to use CLIs and other tools from the termin
 
 That's it! You're ready to start using Next.js (if you know the stuff in the Prerequisites)
 
-##### Note: This repo is archived.
+### Note: This repo is archived.
